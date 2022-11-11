@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
                     ExoAdapter adapter = new ExoAdapter(MainActivity.this, list);
                     recyclerView.setAdapter(adapter);
-                    adapter.notifyDataSetChanged();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
